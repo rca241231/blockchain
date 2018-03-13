@@ -93,3 +93,7 @@ class Blockchain(object):
             proof += 1
 
         return proof
+
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
